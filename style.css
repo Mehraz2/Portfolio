@@ -37,6 +37,19 @@
   text-align: center;
 }
 
+
+.header__img {
+  animation: float 4s ease-in-out infinite;
+  transition: 0.5s;;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+}
+
 .btn {
   padding: 0.625rem 1.5rem;
   outline: none;
@@ -149,9 +162,9 @@ header {
 }
 
 .header__image img {
-  max-width: 350px;
+  max-width: 500px;
   margin-inline: auto;
-  margin-top: 2rem;
+  margin-top: -8rem;
 }
 
 .header__content h2 {
@@ -503,7 +516,9 @@ header {
 .portfolio__card img {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ margin-top: 14px;
 }
+
 
 .banner__container {
   display: grid;
